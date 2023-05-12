@@ -9,7 +9,6 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Data
 @Builder
 @AllArgsConstructor
-// Благодаря аннотации класс сопоставляется с БД, указали имя коллекции
 @Document(collection = "books")
 public class Book {
 
