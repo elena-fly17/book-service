@@ -10,6 +10,14 @@ spring:
         service-id: config-server1
   config:
     import: "optional:configserver:"
+  data:
+    mongodb:
+      authentication-database: admin
+      username: rootuser
+      password: rootpass
+      database: amigoscode
+      port: 27017
+      host: 192.168.99.102
 eureka:
   client:
     service-url:
