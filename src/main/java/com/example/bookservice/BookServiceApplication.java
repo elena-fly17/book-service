@@ -14,7 +14,7 @@ public class BookServiceApplication {
         SpringApplication.run(BookServiceApplication.class, args);
     }
 
-    @Bean
+    /*@Bean
     CommandLineRunner runner(BookRepository bookRepository) {
         return args -> {
           Book book1 = new Book("1", "Title_One",
@@ -31,5 +31,5 @@ public class BookServiceApplication {
           bookRepository.insert(book3);
           bookRepository.insert(book4);
         };
-    }
+    }*/
 }
